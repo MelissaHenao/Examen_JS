@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section class="container">
+      
+       <div>
+        <img class="imag" src="./images/flores2.png" alt="imagenP">
+
+      </div>
+      <div class="containerForm">
+        <form class="form">
+          <b>Usuario</b>
+            <br>
+            
+            <input class="input" type="text" name="user" id="usuario" placeholder="Ingrese su usuario">
+            
+            <br>
+            <br>
+            <b>Contraseña</b>
+            <br>
+            <input class="input"  type="password" name="passw" id="contraseña" placeholder="Ingrese su contraseña">
+            <br>
+            <br>
+            <div>
+              <label id="registrar">El usuario no exite, ¿Desea registrarse?</label>
+            </div>
+            <!-- <button type="submit">INGRESAR</button> -->
+              <section class="adicional">
+                <div class="registr">
+                 <input id="BRS" type="button" value="Si" onclick="registro()">
+                  <input id="BRN" type="button" value="No" onclick="registro()">
+                </div>
+                
+              </section> 
+            <input  class="submit" type="button" value="INGRESAR" onclick="login()">
+        </form>
+          
+      </div>
+
+      </section>
+    </section>
+
+  </main>
+
+  
+<script src="/florespepita.js"></script>
+</body>
+</html>
