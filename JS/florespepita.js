@@ -90,9 +90,12 @@ function guardarFlor(){
     if(nuevaFlor === ""){ 
         document.getElementById("campoRequerido").style.visibility="visible" 
     }else{
+        arrayFlores.push(nuevaFlor)
+        console.log("flores: ",arrayFlores)
         let li=document.createElement("li");
         listaFlores.appendChild(li)
-        li.textContent=nuevaFlor
+        let ultimaFlor=arrayFlores.pop();
+        li.textContent=ultimaFlor;
         document.getElementById("campoRequerido").style.visibility="hidden" ;
         document.getElementById("enviarFlor").style.visibility="hidden";
         document.getElementById("nuevaFlor").style.visibility="hidden"
