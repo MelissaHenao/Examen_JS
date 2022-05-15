@@ -1,5 +1,5 @@
 body{
-    background-image:url(./images/pattern-background-desktop.svg) ;
+    background-image:url("https://images.pond5.com/blooming-cherry-blossom-flower-and-085088876_prevstill.jpeg") ;
     background-size: cover; 
     background-repeat: no-repeat;
    /*  transform: rotate(180deg); */
@@ -7,13 +7,15 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center; 
-    height: 700px;  
+    height: 500px;  
+    margin-top: 70px;
+    margin-right: 400px;
 }
     
 .container{
     width: 400px; 
     height: 550px;
-    background-color: #F0F8FF ;
+    background-color: #FFF8DC ;
     border-radius: 15px;
    
 }
@@ -88,5 +90,13 @@ label{
     width: 30px;
 }
 
-/* pagina secundaria, tarjetas */
+#registrar{
+    display: none;
+}
+
+#registrado{
+    display: none;
+}
+
+/* pagina secundaria */
 

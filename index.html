@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <title>Frontend Mentor | Order summary card</title>
-  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="Styless/Style.css">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -30,20 +30,24 @@
             <br>
             <br>
             <div>
-              <label id="registrar">El usuario no exite, ¿Desea registrarse?</label>
+              <label  id="registrar">El usuario no exite, ¿Desea registrarse?</label>
             </div>
             <!-- <button type="submit">INGRESAR</button> -->
               <section class="adicional">
                 <div class="registr">
                  <input id="BRS" type="button" value="Si" onclick="registro()">
-                  <input id="BRN" type="button" value="No" onclick="registro()">
+                  <input id="BRN" type="button" value="No" onclick="limpiar()">
                 </div>
                 
               </section> 
             <input  class="submit" type="button" value="INGRESAR" onclick="login()">
+            <div>
+            <label id="registrado">Usuario Registrado con Exito, puede ingresar</label>
+            </div>
         </form>
           
       </div>
+
 
       </section>
     </section>
@@ -51,6 +55,6 @@
   </main>
 
   
-<script src="/florespepita.js"></script>
+<script src="JS/florespepita.js"></script>
 </body>
 </html>
